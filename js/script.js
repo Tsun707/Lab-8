@@ -8,6 +8,7 @@ function init(){
     }
 	
     button.addEventListener('click', alertfunction);
+}
 	
 //add your javascrip between these two lines of code
 
