@@ -1,18 +1,14 @@
 function init(){
+	var button= document.getElementById('entrybutton');
+	
 	function alertfunction(){
-	alert('Tianrui Sun: This is test')
+	var textshow = document .getElementById('entryinput');
+	document.getElementById('textoutput').innerHTML = textshow.value;
+	alert("Tianrui Sun:" + textshow.value);
     }
-
-    var botton= document.getElementById('entrybutton');
-    botton.addEventListener('click', alertfunction);
+	
+    button.addEventListener('click', alertfunction);
+	
 //add your javascrip between these two lines of code
-
-
-
-
-
-
-
-
 
 window.addEventListener('load', init);

@@ -1,0 +1,5 @@
+function alertfunction(){
+	alert('Tianrui Sun: This is test')
+    }
+
+    var botton= document.getElementById('entrybutton');
