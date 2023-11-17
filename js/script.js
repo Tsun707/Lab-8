@@ -1,5 +1,5 @@
 function init(){
-	var button= document.getElementById('entrybutton');
+	var button = document.getElementById('entrybutton');
 	
 	function alertfunction(){
 	var textshow = document .getElementById('entryinput');
